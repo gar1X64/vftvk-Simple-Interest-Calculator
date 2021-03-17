@@ -2,34 +2,46 @@
     <head>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <title>Simple Interest Calculato</title>
     </head>
     <body>
-        <h1><b>Simple Interest Calculator</b></h1><br>
-    <div class="container">
-        <form action="#">
-            <label>Amount</label> 
-            <input type="number"  id="principal"><br/> <br>
-            <label>Interest Rate </label>
-            <input type="range"  id="rate" min="0" max="250"> <span id="demo"></span>%<br/> <br>
-            <label>Nº of Years </label> 
-            <select id="years">
+        <div class="section">
+            <h1><b>Simple Interest Calculator</b></h1><br>
+            <div class="container">
+                <form action="#">
+                    <label>Amount</label> 
+                    <input type="number"  id="principal"><br/> <br>
+                    <label>Interest Rate </label>
+                    <input type="range"  id="rate" min="10" max="200"> <span id="demo"></span>%<br/> <br>
+                    <label>Nº of Years </label> 
+                    <select id="years">
 
-                <option>1</option>
-                
-                <option>2</option>
-                
-                <option>3</option>
+                        <option>1</option>
+                        
+                        <option>2</option>
+                        
+                        <option>3</option>
 
-                <option>4</option>
+                        <option>4</option>
 
-                <option>5</option>
-                
-            </select> <br><br>
+                        <option>5</option>
 
-            <button onclick="compute()">Compute Interest</button>
-        </form>
-        <span id="result"></span><br>
+                        <option>6</option>
+
+                        <option>7</option>
+
+                        <option>8</option>
+
+                        <option>9</option>
+
+                        <option>10</option>
+                    </select> <br><br>
+
+                    <button onclick="compute()">Compute Interest</button>
+                </form>
+                <span id="result"></span><br>
+            </div>
+            <p>&copy; Everyone Can Get Rich</p>
     </div>
-     <p>&copy; Everyone Can Get Rich</p>
     </body>
 </html>
